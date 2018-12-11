@@ -1,0 +1,27 @@
+.banner {
+  overflow: hidden;
+  position: relative;
+  background-position: center center;
+  max-height: 24em;
+}
+
+.banner-text {
+  position: absolute;
+  width: 50%;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  background-color: rgba(188,112,60, .7);
+}
+
+.main-btn {
+  display: inline-block;
+  border: none;
+}
+
+.btn {
+  background-color: #644c54;
+  color: white;
+  border: none;
+}
