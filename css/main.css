@@ -1,3 +1,11 @@
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.skip-links {
+  display: none;
+}
+
 .banner {
   overflow: hidden;
   position: relative;
@@ -24,4 +32,33 @@
   background-color: #644c54;
   color: white;
   border: none;
+}
+
+hr {
+  border-color: #7c6654;
+  border-top: 1px dotted;
+}
+
+nav {
+  position: relative;
+}
+
+ul {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+nav ul li a:hover {
+  color: #644c54;
+}
+
+header, footer {
+  background-image: linear-gradient(#bc703c, #f2d5b9);
 }
