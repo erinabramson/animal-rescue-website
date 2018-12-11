@@ -59,6 +59,10 @@ nav ul li a:hover {
   color: #644c54;
 }
 
-header, footer {
+header {
   background-image: linear-gradient(#bc703c, #f2d5b9);
+}
+
+footer {
+  background-color: #f2d5b9;
 }
